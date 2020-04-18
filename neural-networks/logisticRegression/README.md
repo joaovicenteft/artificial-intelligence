@@ -1,6 +1,6 @@
-#Rede neural utilizando regressão linear
+# Rede neural utilizando regressão linear
 
-##Objetivo: Classificar um conjunto de imagens como sendo de gatos ou não. Usa-se o algoritmo de regressão linear como base.\
+## Objetivo: Classificar um conjunto de imagens como sendo de gatos ou não. Usa-se o algoritmo de regressão linear como base.\
 
 
 Utiliza uma transformação linear do tipo X = Wx + b, onde temos que W é uma matriz de pesos e b é um vetor de defasagem.\
