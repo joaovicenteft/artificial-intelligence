@@ -145,7 +145,9 @@ def model(X_train, Y_train, X_test, Y_test, num_iterations=2000, learning_rate=0
 d = model(train_set_x, train_set_y, test_set_x, test_set_y, num_iterations = 2000, learning_rate = 0.005, print_cost = True)
 
 
-#Classificador de imagem, com overfit. Pode ser corrigido com o auxílio de uma rede neural.
-#index = 5
+index = 5
 #plt.imshow(test_set_x[:,index].reshape((num_px, num_px, 3)))
 #print ("y = " + str(test_set_y[0, index]) + ", you predicted that it is a \"" + classes[d["Y_prediction_test"][0, index]].decode("utf-8") +  "\" picture.")
+
+
+print ("y = " + str(train_set_y[:, index]) + ", it's a '" + classes[np.squeeze(train_set_y[:, index])].decode("utf-8") +  "' picture.")
