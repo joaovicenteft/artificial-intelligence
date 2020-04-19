@@ -11,6 +11,6 @@
 
 
 ```
-python3 LR_cat_classification.py lr_utils.py
+python3 LR_cat_classification.py
 ```
 
