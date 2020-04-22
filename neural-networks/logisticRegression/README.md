@@ -1,4 +1,4 @@
-# Rede neural utilizando regressão linear
+# Predição utilizando regressão linear
 
 ## Objetivo: Classificar um conjunto de imagens como sendo de gatos ou não. Usa-se o algoritmo de regressão linear como base.
 
