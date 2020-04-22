@@ -4,3 +4,9 @@
  
  ## Implementação
  Foi criada uma rede neural com duas camadas. Implementação dos algoritmos e integração com elementos fornecidos pelo Coursera
+ 
+ ### Execução
+ 
+ ´´´
+  python3 shallowNN.py
+ ´´´
